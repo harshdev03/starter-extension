@@ -1,6 +1,6 @@
 {
     "C++ OOP": {
-    "prefix": "cpp-oop",
+    "prefix": "cpp-oops",
     "body": [
       "#include <iostream>",
       "using namespace std;",

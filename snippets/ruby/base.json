@@ -1,6 +1,6 @@
 {
   "Ruby Boilerplate": {
-    "prefix": "rb-base",
+    "prefix": "ruby-base",
     "body": [
       "def main",
       "  puts 'Hello, from Starter's'",

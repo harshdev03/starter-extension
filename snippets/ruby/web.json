@@ -1,0 +1,20 @@
+{
+  "Rails Controller with GET and POST": {
+    "prefix": "ruby-web",
+    "body": [
+      "class ${1:HomeController} < ApplicationController",
+      "  # GET /${2:resource}",
+      "  def index",
+      "    render json: { message: \"GET request received\" }",
+      "  end",
+      "",
+      "  # POST /${2:resource}",
+      "  def create",
+      "    # params[:${3:resource}] contains POST data",
+      "    render json: { message: \"POST request received\", data: params[:${3:resource}] }",
+      "  end",
+      "end"
+    ],
+    "description": "Rails controller boilerplate with GET and POST actions"
+  }
+}

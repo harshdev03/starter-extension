@@ -37,7 +37,7 @@ With this extension, users can **simply download it from the VS Code Marketplace
 | Language   | Snippet Prefix       | Description                     |
 |-----------|--------------------|---------------------------------|
 | C++       | `cpp-base`          | Basic C++ file boilerplate      |
-| C++       | `cpp-oop`           | Simple C++ class & object       |
+| C++       | `cpp-oops`           | Simple C++ class & object       |
 | JavaScript| `js-base`           | Basic JS function               |
 | JavaScript| `js-express`        | Express.js route setup          |
 | JavaScript| `js-web`            | Basic HTML + JS web setup       |
@@ -54,7 +54,7 @@ With this extension, users can **simply download it from the VS Code Marketplace
 | Ruby      | `ruby-base`         | Basic Ruby file                 |
 | Ruby      | `ruby-rails`        | Rails controller example        |
 | Java      | `java-base`         | Basic Java class                |
-| Java      | `java-oop`          | Java class & object example     |
+| Java      | `java-oops`          | Java class & object example     |
 | Java      | `java-web`          | Java servlet/endpoint setup     |
 
 ---

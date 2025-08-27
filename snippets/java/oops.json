@@ -1,6 +1,6 @@
 {
     "Java OOP Example": {
-        "prefix": "java-oop",
+        "prefix": "java-oops",
         "body": [
             "public class Person {",
             "    private String name;",
