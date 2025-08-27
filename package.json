@@ -1,0 +1,59 @@
+{
+  "name": "harshchalwadi",
+  "displayName": "starters-snippets",
+  "description": "Quickly generate starter files and boilerplate code for projects.",
+  "version": "0.0.2",
+  "publisher": "harshchalwadi",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harshchalwadi/starters-extension.git"
+  },
+  "homepage": "https://github.com/harshchalwadi/starters-extension",
+  "bugs": {
+    "url": "https://github.com/harshchalwadi/starters-extension/issues"
+  },
+  "keywords": [
+    "snippets",
+    "starter",
+    "boilerplate",
+    "cpp",
+    "javascript",
+    "python",
+    "php",
+    "go",
+    "rust",
+    "ruby",
+    "java"
+  ],
+  "contributes": {
+    "snippets": [
+      { "language": "cpp",        "path": "./snippets/cpp/base.json" },
+      { "language": "cpp",        "path": "./snippets/cpp/oop.json" },
+      { "language": "javascript", "path": "./snippets/javascript/base.json" },
+      { "language": "javascript", "path": "./snippets/javascript/express.json" },
+      { "language": "javascript", "path": "./snippets/javascript/web.json" },
+      { "language": "javascript", "path": "./snippets/javascript/react.json" },
+      { "language": "php",        "path": "./snippets/php/base.json" },
+      { "language": "php",        "path": "./snippets/php/laravel.json" },
+      { "language": "python",     "path": "./snippets/python/base.json" },
+      { "language": "python",     "path": "./snippets/python/flask.json" },
+      { "language": "python",     "path": "./snippets/python/django.json" },
+      { "language": "go",         "path": "./snippets/go/base.json" },
+      { "language": "go",         "path": "./snippets/go/web.json" },
+      { "language": "rust",       "path": "./snippets/rust/base.json" },
+      { "language": "rust",       "path": "./snippets/rust/web.json" },
+      { "language": "ruby",       "path": "./snippets/ruby/base.json" },
+      { "language": "ruby",       "path": "./snippets/ruby/rails.json" },
+      { "language": "java",       "path": "./snippets/java/base.json" },
+      { "language": "java",       "path": "./snippets/java/oop.json" },
+      { "language": "java",       "path": "./snippets/java/web.json" }
+    ]
+  }
+}

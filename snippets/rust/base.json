@@ -1,0 +1,11 @@
+{
+  "Rust Boilerplate": {
+    "prefix": "rust-base",
+    "body": [
+      "fn main() {",
+      "    println!(\"Hello, from Starters!\");",
+      "}"
+    ],
+    "description": "Rust Hello World boilerplate"
+  }
+}

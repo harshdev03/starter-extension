@@ -1,0 +1,18 @@
+{
+  "Laravel Controller": {
+    "prefix": "php-laravel",
+    "body": [
+      "<?php",
+      "namespace App\\Http\\Controllers;",
+      "",
+      "use Illuminate\\Http\\Request;",
+      "",
+      "class ${1:ExampleController} extends Controller {",
+      "    public function index() {",
+      "        return response()->json(['message' => 'Hello Laravel']);",
+      "    }",
+      "}"
+    ],
+    "description": "Laravel controller boilerplate"
+  }
+}

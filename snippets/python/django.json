@@ -1,0 +1,12 @@
+{
+  "Django View": {
+    "prefix": "py-django",
+    "body": [
+      "from django.http import HttpResponse",
+      "",
+      "def ${1:index}(request):",
+      "    return HttpResponse('Hello Django')"
+    ],
+    "description": "Basic Django view function"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "Python Function":{
+        "prefix" : "py-base",
+        "body":[
+            "def greet(){",
+            "",
+            "print('Hello from Starter's ')",
+            "}",
+            "",
+            "greet()"
+
+        ]
+    }
+}

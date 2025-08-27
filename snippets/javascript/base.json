@@ -1,0 +1,15 @@
+{
+    "Javascript Function":{
+        "prefix": "js-base",
+        "body":[
+            "function greet(){",
+            "",
+            "console.log('Hello from Starter's ')",
+            "}",
+            "",
+            "greet()"
+
+        ],
+        "description" : "Basic function boilerplate for Javascript"
+    }
+}

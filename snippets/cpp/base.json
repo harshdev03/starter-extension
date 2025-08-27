@@ -1,0 +1,15 @@
+{
+  "C++ Boilerplate": {
+    "prefix": "cpp-base",
+    "body": [
+      "#include <iostream>",
+      "using namespace std;",
+      "",
+      "int main() {",
+      "    cout << \"Hello, from Starter's\" << endl;",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Basic C++ boilerplate"
+  }
+}

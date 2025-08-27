@@ -1,0 +1,33 @@
+{
+    "Java Servlet API Endpoints": {
+        "prefix": "java-web",
+        "body": [
+            "import java.io.*;",
+            "import javax.servlet.*;",
+            "import javax.servlet.http.*;",
+            "",
+            "public class ApiServlet extends HttpServlet {",
+            "    @Override",
+            "    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {",
+            "        response.getWriter().write(\"GET request received\");",
+            "    }",
+            "",
+            "    @Override",
+            "    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {",
+            "        response.getWriter().write(\"POST request received\");",
+            "    }",
+            "",
+            "    @Override",
+            "    protected void doPut(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {",
+            "        response.getWriter().write(\"PUT request received\");",
+            "    }",
+            "",
+            "    @Override",
+            "    protected void doDelete(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {",
+            "        response.getWriter().write(\"DELETE request received\");",
+            "    }",
+            "}"
+        ],
+        "description": "Basic Java Servlet template with GET, POST, PUT, DELETE endpoints"
+    }
+}

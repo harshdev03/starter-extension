@@ -1,0 +1,13 @@
+{
+  "Ruby Boilerplate": {
+    "prefix": "rb-base",
+    "body": [
+      "def main",
+      "  puts 'Hello, from Starter's'",
+      "end",
+      "",
+      "main"
+    ],
+    "description": "Ruby Hello World boilerplate"
+  }
+}

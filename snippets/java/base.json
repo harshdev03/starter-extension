@@ -1,0 +1,13 @@
+{
+    "Java Hello Starter": {
+        "prefix": "java-base",
+        "body": [
+            "public class Main {",
+            "    public static void main(String[] args) {",
+            "        System.out.println(\"Hello from Starter's\");",
+            "    }",
+            "}"
+        ],
+        "description": "Basic Java program printing Hello from Starter's"
+    }
+}
