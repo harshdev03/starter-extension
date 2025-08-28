@@ -1,0 +1,16 @@
+{
+  "Hono BaseApp": {
+    "prefix": "hono-base",
+    "body": [
+      "import { Hono } from 'hono'",
+      "const app = new Hono()",
+      "",
+      "app.get('/', (c) => {",
+      "  return c.text(\"Hello from Starter's\")",
+      "})",
+      "",
+      "export default app"
+    ],
+    "description": "A simple Get Request from Hono (Cloudflare Framework)"
+  }
+}

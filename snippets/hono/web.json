@@ -1,0 +1,25 @@
+{
+  "Hono WebApp": {
+    "prefix": "hono-web",
+    "body": [
+      "import { Hono } from 'hono'",
+      "",
+      "const app = new Hono()",
+      "",
+      "const USERS = []",
+      "",
+      "app.post('/users', async (c) => {",
+      "  const { name, email, age } = await c.req.json()",
+      "  USERS.push({ name, email, age })",
+      "  return c.json({ msg: 'User stored successfully' })",
+      "})",
+      "",
+      "app.get('/users', (c) => {",
+      "  return c.json({ users: USERS })",
+      "})",
+      "",
+      "export default app"
+    ],
+    "description": "A simple Hono WebApp with GET and POST routes"
+  }
+}
