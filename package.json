@@ -2,7 +2,7 @@
   "name": "harshchalwadi",
   "displayName": "starters-snippets",
   "description": "Quickly generate starter files and boilerplate code for projects.",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "publisher": "harshchalwadi",
   "license": "MIT",
   "engines": {
