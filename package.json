@@ -2,7 +2,7 @@
   "name": "harshchalwadi",
   "displayName": "starters-snippets",
   "description": "Quickly generate starter files and boilerplate code for projects.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "harshchalwadi",
   "license": "MIT",
   "engines": {
@@ -35,7 +35,7 @@
   "contributes": {
     "snippets": [
       { "language": "cpp",        "path": "./snippets/cpp/base.json" },
-      { "language": "cpp",        "path": "./snippets/cpp/oop.json" },
+      { "language": "cpp",        "path": "./snippets/cpp/oops.json" },
       { "language": "javascript", "path": "./snippets/javascript/base.json" },
       { "language": "javascript", "path": "./snippets/javascript/express.json" },
       { "language": "javascript", "path": "./snippets/javascript/web.json" },
@@ -52,7 +52,7 @@
       { "language": "ruby",       "path": "./snippets/ruby/base.json" },
       { "language": "ruby",       "path": "./snippets/ruby/rails.json" },
       { "language": "java",       "path": "./snippets/java/base.json" },
-      { "language": "java",       "path": "./snippets/java/oop.json" },
+      { "language": "java",       "path": "./snippets/java/oops.json" },
       { "language": "java",       "path": "./snippets/java/web.json" }
     ]
   }
